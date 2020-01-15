@@ -62,6 +62,7 @@ modelClassifierVisulation()
 
 
 
+
 '''------------------------------------------------------------------'''
 from sklearn.model_selection import cross_val_score
 #create new knn model#
@@ -71,7 +72,7 @@ cv_score = cross_val_score(cv_knn, X,Y, cv=5)
 print('CV_SCORES MEAN :()'.format(np.mean(cv_score)))
 print(cv_score)
 
-
+#SALAMA Mohammed Awad#
 
 
 
